@@ -1,11 +1,10 @@
-# streamlit hello world app
 import streamlit as st
 
 USER_NAME = "user"
 ASSISTANT_NAME = "assistant"
 
 def main():
-    st.title('Azure Chat Demo')
+    st.title('Azure Chat Stocks')
 
     # チャットログを保存したセッション情報を初期化
     if "chat_log" not in st.session_state:
